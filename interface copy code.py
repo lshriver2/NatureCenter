@@ -64,6 +64,33 @@ def config():
 
 # ------------------------------
 
+'''
+def config(): ------------------------------------
+'''
+'''    
+#establish some variables to use in GUI and pack frames
+width = 15
+width2 = 20
+height = 1
+#font = 1
+font = ("Courier", 15)
+
+#Lframe = Frame(root)
+#Lframe.pack(side = LEFT)
+Rframe = Frame(root)
+Rframe.pack()
+frame2 = Frame(root)
+frame2.pack()
+frame3 = Frame(root)
+frame3.pack()
+'''
+'''def interface():'''
+
+'''    
+for i in range(1):
+    getData()
+    calculations()
+'''
 
 def quit1():
     global file1
